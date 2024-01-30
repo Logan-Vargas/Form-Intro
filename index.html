@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <form action="" method="Post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" placeholder="username example" minlength="8" maxlength="20" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" placeholder="password example"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="exampleemail@gmail.com"><br>
+
+        <label for="phone">Phone #:</label><br>
+        <input type="phone" id="phone" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="bday">Birthdate:</label><br>
+        <input type="date" id="bday" placeholder=""><br>
+
+        <label for="quantity">quantity:</label><br>
+        <input type="number" id="quantity" placeholder="" minlength="0" maxlength="100"><br>
+
+        <label for="Mr.">Mr.:</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Mr.:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD.">PhD.:</label>
+        <input type="radio" id="Phd." value="Phd." name="title"><br>
+
+        <label for="payment">Payment:</label><br>
+        <select id="payment"><br>
+            <option value="visa">visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br>
+
+        <label for="subscribe">Subscribe:</label><br>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="comment">Comment:</label><br>
+        <textarea id="comment" cols="25" rows="3"></textarea><br>
+
+        <label for="file">file:</label><br>
+        <input type="file"><br>
+
+        
+
+
+
+
+        <input type="reset"><br>
+        <input type="submit"><br>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
